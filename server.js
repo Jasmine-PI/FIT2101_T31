@@ -42,13 +42,13 @@ async function run() {
     let sprints = [];
 
     // Require your Column class here
-    const Column = require('A2_Javascript/column'); 
+    const Column = require('column'); 
     // Require your Task class here
-    const Task = require('A2_Javascript/task'); // Adjust the path as needed
-    const Sprint = require('A2_Javascript/sprint'); // Adjust the path as needed
+    const Task = require('task'); // Adjust the path as needed
+    const Sprint = require('sprint'); // Adjust the path as needed
     const { privateEncrypt } = require("crypto");
 
-    const User = require('A2_Javascript/user'); // Adjust the path as needed
+    const User = require('user'); // Adjust the path as needed
 
     var todo = new Column("To-do")
     var inprog = new Column("In-Progress")

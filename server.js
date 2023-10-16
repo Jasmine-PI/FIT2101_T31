@@ -48,7 +48,7 @@ async function run() {
     const Sprint = require('./sprint'); // Adjust the path as needed
     const { privateEncrypt } = require("crypto");
 
-    const User = require('./models/user'); // Adjust the path as needed
+    const User = require('./user'); // Adjust the path as needed
 
     var todo = new Column("To-do")
     var inprog = new Column("In-Progress")

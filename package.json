@@ -3,7 +3,7 @@
     "node": "18.17.1 < 19.0.0"
   },
   "scripts": {
-    "start": "A2_Javascript/node server.js && yarn client:install && yarn client:build"
+    "start": "node server.js && yarn client:install && yarn client:build"
 
   },
   "dependencies": {

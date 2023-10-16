@@ -3,7 +3,8 @@
     "node": "18.17.1 < 19.0.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js && yarn client:install && yarn client:build"
+
   },
   "dependencies": {
     "aws": "^0.0.3-2",
